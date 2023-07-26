@@ -1,0 +1,74 @@
+body {
+    background: url(../assets/bg.png) no-repeat center fixed; 
+    background-size: cover;
+}
+.intro-text {
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+}
+
+.intro-text h1 {
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    top: 40vh;
+    
+}
+
+.intro-content {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    right: 20%;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.intro-res {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    right: 5%;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.btn2 {
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    
+    margin: 1rem -5rem;
+    border-radius: 50px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 15px 40px;
+    transition: all 0.2s ease-in-out;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+
+.btn2-light {
+    background: rgba(255, 255, 255, 0.2)
+  }
+  
+  .btn2:hover {
+    background: #4b1aed7b;
+  }
+
+

@@ -1,0 +1,222 @@
+.cards {
+    display: flex;
+}
+
+.card1 {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    width: 250px;
+    height: 300px;
+    padding: .4em;
+    border-radius: 30px;
+    transition: all 0.2s ease-in-out;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    
+}
+
+.card-image1 {
+    background-image: url(../assets/pfpp.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+    border-radius: 30px;
+}
+.card2 {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    width: 250px;
+    height: 300px;
+    padding: .4em;
+    border-radius: 30px;
+    transition: all 0.2s ease-in-out;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+
+.card-image2 {
+    background-image: url(../assets/tdpp.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+    border-radius: 30px;
+  
+}
+.card3 {
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    width: 250px;
+    height: 300px;
+    padding: .4em;
+    border-radius: 30px;
+
+    transition: all 0.2s ease-in-out;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+
+.card-image3 {
+    background-image: url(../assets/qapp.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+    border-radius: 30px;
+    
+
+}
+
+
+
+.card4 {
+    position: absolute;
+    top: 57%;
+    right: 60%;
+    width: 250px;
+    height: 300px;
+    padding: .4em;
+    border-radius: 30px;
+    transition: all 0.2s ease-in-out;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+
+.card-image4 {
+    background-image: url(../assets/sipp.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+    border-radius: 30px;
+  
+}
+
+.card5 {
+    position: absolute;
+    top: 57%;
+    right: 40%;
+    width: 250px;
+    height: 300px;
+    padding: .4em;
+    border-radius: 30px;
+    transition: all 0.2s ease-in-out;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+
+}
+
+.card-image5 {
+    background-image: url(../assets/webspp.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+    border-radius: 30px;
+    
+
+}
+
+.card6 {
+    position: absolute;
+    top: 57%;
+    right: 20%;
+    width: 250px;
+    height: 300px;
+    padding: .4em;
+    transition: all 0.2s ease-in-out;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+
+}
+
+.card-image6 {
+    background-image: url(../assets/logo.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+    border-radius: 30px;
+    
+
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover,
+.card6:hover {
+    background-color: #4b1aed7b;
+}
+.card-image1:hover,
+.card-image2:hover,
+.card-image3:hover,
+.card-image4:hover,
+.card-image5:hover,
+.card-image6:hover {
+    transform: scale(0.98);
+    
+}
+
+.category {
+    text-transform: uppercase;
+    
+    font-weight: 600;
+    color:#9d16e1;
+    padding: 10px 7px 0;
+}
+
+.category:hover {
+    cursor: pointer;
+}
+
+.heading {
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 7px;
+}
+
+.heading:hover {
+    cursor: pointer;
+}
+
+.site {
+    color: #9d16e1;
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 20px;
+}
