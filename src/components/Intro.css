@@ -44,7 +44,7 @@ body {
 .btn2 {
     margin: 0;
     position: absolute;
-    top: 65%;
+    top: 72%;
     left: 50%;
     
     margin: 1rem -5rem;
@@ -68,7 +68,7 @@ body {
   }
   
   .btn2:hover {
-    background: #4b1aed7b;
+    background: #4b1aed;
   }
 
 

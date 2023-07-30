@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300'); 
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato';
+  font-size: 16px;
+}
+
+.skill-progress {
+  margin: 20px;
+}
+
+.skill-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color:azure;
+}
+
+.progress-bar {
+  background-color: #ddd;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 15px );
+  -webkit-backdrop-filter: blur( 15px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #4b1aed;
+  transition: width 1s ease-in-out;
+  
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.container {
+  padding: 0.3rem;
+  position: relative;
+  margin: 0.3rem;
+  overflow: hidden;
+  margin-right: 20px;
+  transition: all 0.2s ease-in-out;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 15px );
+  -webkit-backdrop-filter: blur( 15px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 30%;
+}
