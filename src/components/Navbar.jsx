@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import './Navbar.css';
+import Logo from "../assets/logo.png"
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
     <div className='header'>
       <div>
         <a href="https://drive.google.com/file/d/1Qvxc6U5iwR2FqDB0dkOQ5gON_sVbY-qR/view?usp=sharing" target="_blank" rel="noreferrer">
-          <img className='logo' src="/logo.png" alt="Resume" />
+          <img className='logo' src={Logo} alt="Resume" />
         </a>
       </div>
 
